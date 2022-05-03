@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
+    * {
+      transition: all 0.3s;
+    }
+
+    body {
+  min-height: 100vh;
+  background: url("http://source.unsplash.com/random?write");
+  background-position: center;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif; 
+    }
+
+    .contenedor {
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.596);
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 2rem;       
+      font-family: 'Audiowide', cursive;
+      
+    }
+
+    .encabezado {
+      position: relative;
+      background: rgba(61, 60, 60, 0.473);
+      color: aliceblue;
+      min-width: 300px;
+      width: 70%;
+      max-width: 600px;
+      padding: 20px;
+      margin-bottom: 1rem;
+    }
+
+    .categoria {
+      display: none;
+    }
+
+    .pregunta {
+      padding: 10px;
+      puntero: pointer;
+    }   
+
+    .btn {
+      background: white;
+      width: 60%;
+      max-width: 550px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      
+    }
+    
+    .numero{
+      position: absolute;
+      opacity:0.3;
+      top: 10px;
+      right: 10px;
+    }
+    
+    .puntaje{
+      padding:10px;
+      color:white;
+    }
+  
