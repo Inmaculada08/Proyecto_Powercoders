@@ -11,7 +11,7 @@
   background: url("http://source.unsplash.com/random?write");
   background-position: center;
   background-size: cover;
-  font-family: 'Radio Canada', sans-serif;
+font-family: 'Radio Canada', sans-serif;
   font-size: 30px;
     }
 
@@ -46,7 +46,7 @@
 
     .pregunta {
       padding: 10px;
-      puntero: pointer;
+    
     }   
 
     .btn {
