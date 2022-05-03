@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Radio+Canada:wght@300;400;500 & display=swap');
     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       transition: all 0.3s;
     }
 
@@ -8,7 +11,8 @@
   background: url("http://source.unsplash.com/random?write");
   background-position: center;
   background-size: cover;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 30px;
     }
 
     .contenedor {
